@@ -17,7 +17,9 @@ code {
 * {
     box-sizing: border-box;
 }
-
+.light {
+    color: #FFFFFF;
+}
 .container {
     margin: 0 80px;
 }
@@ -36,9 +38,9 @@ code {
     align-items: center;
 }
 
-.SectionWithTextItemsTitle {
-    margin-top: 0;
-    margin-bottom: 21px;
+.SectionTitle {
+    margin-top: 21px;
+    margin-bottom: 25px;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 48px;
@@ -48,7 +50,7 @@ code {
 }
 
 .SectionWithTextItemsDesc {
-    margin-bottom: 61px;
+    margin: 0 24% 61px;
     max-width: 713px;
     font-family: 'Roboto';
     font-weight: 400;
@@ -66,8 +68,24 @@ code {
 }
 
 .SectionWithTextItem-block_l {
+    margin-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
+}
+
+.SectionWithHouses{
+    padding-top: 132px;
+    padding-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CardElemBlocks{
+    margin: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
 }

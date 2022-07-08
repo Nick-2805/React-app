@@ -32,6 +32,18 @@ import icon2 from '../assets/icons/icon2.svg'
 import icon3 from '../assets/icons/icon3.svg'
 import icon4 from '../assets/icons/icon4.svg'
 import icon5 from '../assets/icons/icon5.svg'
+import house1 from '../assets/img/house1.jpg'
+import geo from '../assets/icons/place.svg'
+import bath from '../assets/icons/bathtub.svg'
+import bed from '../assets/icons/bed.svg'
+import area from '../assets/icons/square_foot.svg'
+import family from '../assets/icons/family.svg'
+import PreTitleDiv from "../PreTitle/preTitle";
+import CardElem from "../CardElem/CardElem";
+import SectionWithPhotoContentLinks
+    from "../SectionWithPhoto/SectionWithPhotoContent/SectionWithPhotoContentLink/SectionWithPhotoContentLink";
+import SectionDark from "../SectionDark/SectionDark";
+import Button from "../Button/Button";
 
 function App() {
     return (
@@ -43,7 +55,10 @@ function App() {
                     variant3='v3'
                 />)}
                 end={(<SectionWithPhotoContent
-                    preTitle='Find your dream place'
+                    // PreTitle='Find your dream place'
+                    preTitleDiv={(<PreTitleDiv
+                        preTitle='Find your dream place'
+                    />)}
                     title='Find house for your family in minutes'
                     text='Aenean sodales mauris quis tellus facilisis, vel mattis magna. Interdum curabitur eget aliquam elit in mauris purus.'
                     endForm={(<SectionWithPhotoContentForm/>)}
@@ -63,7 +78,7 @@ function App() {
                             icon4={icon4}
                             icon5={icon5}
                         />
-                        <h3 className='SectionWithTextItemsTitle'>How it works</h3>
+                        <h3 className='SectionTitle'>How it works</h3>
                         <div className='SectionWithTextItemsDesc'>
                             <p>Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id efficitur pellentesque.
                                 Maecenas
@@ -94,7 +109,10 @@ function App() {
                             variant='v2'
                         />)}
                         end={(<SectionWithPhotoContent
-                            preTitle='Comfort first'
+                            preTitleDiv={(<PreTitleDiv
+                                preTitle='Comfort first'
+                            />)}
+
                             title='The best houses for family comfort'
                             text='Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin sollicitudin, lorem non posuere blandit.'
                             endInfo={(<SectionWithPhotoContentInfo/>)}
@@ -107,7 +125,9 @@ function App() {
                             variant='v2'
                         />)}
                         end={(<SectionWithPhotoContent
-                            preTitle='Quick and easy'
+                            preTitleDiv={(<PreTitleDiv
+                                preTitle='Quick and easy'
+                            />)}
                             title='Fast forward process'
                             text='Ut vitae nisi eu nisi maximus condimentum ac id purus. Duis sit amet mi arcu praesent nec felis nisl.'
                             endInfo={(<SectionWithPhotoContentInfo
@@ -128,59 +148,164 @@ function App() {
                     />
                 </div>
                 <div className="wrapper_grey">
-                    <div className='SectionWithTextItems'>
-                        <h3 className='SectionWithTextItemsTitle'>Locations</h3>
-                        <div className='SectionWithTextItemsDesc'>
-                            <p>Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer lacus urna, aliquet
-                                non
-                                nisl
-                                sit amet.</p>
+                    <div className="container">
+                        <div className='SectionWithHouses'>
+                            <PreTitleDiv
+                                preTitle='Properties'
+                            />
+                            <h3 className='SectionTitle'>Houses in your favorite area</h3>
+                            <div className="CardElemBlocks">
+                                <CardElem
+                                    img={house1}
+                                    title='Cozy studio in Los Angeles'
+                                    price='$ 1,200.00 USD'
+                                    geo={geo}
+                                    place='2263 Southlea, Los Angeles'
+                                    bath={bath}
+                                    bathNum='2'
+                                    bed={bed}
+                                    bedNum='2'
+                                    area={area}
+                                    areaNum='840 sqft'
+                                />
+                                <CardElem
+                                    img={house1}
+                                    title='Cozy studio in Los Angeles'
+                                    price='$ 1,200.00 USD'
+                                    geo={geo}
+                                    place='2263 Southlea, Los Angeles'
+                                    bath={bath}
+                                    bathNum='2'
+                                    bed={bed}
+                                    bedNum='2'
+                                    area={area}
+                                    areaNum='840 sqft'
+                                />
+                                <CardElem
+                                    img={house1}
+                                    title='Cozy studio in Los Angeles'
+                                    price='$ 1,200.00 USD'
+                                    geo={geo}
+                                    place='2263 Southlea, Los Angeles'
+                                    bath={bath}
+                                    bathNum='2'
+                                    bed={bed}
+                                    bedNum='2'
+                                    area={area}
+                                    areaNum='840 sqft'
+                                />
+                                <CardElem
+                                    img={house1}
+                                    title='Cozy studio in Los Angeles'
+                                    price='$ 1,200.00 USD'
+                                    geo={geo}
+                                    place='2263 Southlea, Los Angeles'
+                                    bath={bath}
+                                    bathNum='2'
+                                    bed={bed}
+                                    bedNum='2'
+                                    area={area}
+                                    areaNum='840 sqft'
+                                />
+                                <CardElem
+                                    img={house1}
+                                    title='Cozy studio in Los Angeles'
+                                    price='$ 1,200.00 USD'
+                                    geo={geo}
+                                    place='2263 Southlea, Los Angeles'
+                                    bath={bath}
+                                    bathNum='2'
+                                    bed={bed}
+                                    bedNum='2'
+                                    area={area}
+                                    areaNum='840 sqft'
+                                />
+                                <CardElem
+                                    img={house1}
+                                    title='Cozy studio in Los Angeles'
+                                    price='$ 1,200.00 USD'
+                                    geo={geo}
+                                    place='2263 Southlea, Los Angeles'
+                                    bath={bath}
+                                    bathNum='2'
+                                    bed={bed}
+                                    bedNum='2'
+                                    area={area}
+                                    areaNum='840 sqft'
+                                />
+                            </div>
+                            <SectionWithPhotoContentLinks/>
                         </div>
-                        <div className='SectionWithTextItem-block_l'>
-                            <SectionWithTextItem
-                                varblock='l'
-                                varIcon='none'
-                                varTitle='l'
-                                title='San Francisco, CA'
-                                text='View Properties'
-                            />
-                            <SectionWithTextItem
-                                varblock='l'
-                                varIcon='none'
-                                varTitle='l'
-                                title='Los Angeles, CA'
-                                text='View Properties'
-                            />
-                            <SectionWithTextItem
-                                varblock='l'
-                                varIcon='none'
-                                varTitle='l'
-                                title='San Diego, CA'
-                                text='View Properties'
-                            />
-                            <SectionWithTextItem
-                                varblock='l'
-                                varIcon='none'
-                                varTitle='l'
-                                title='New York, NY'
-                                text='View Properties'
-                            />
-                            <SectionWithTextItem
-                                varblock='l'
-                                varIcon='none'
-                                varTitle='l'
-                                title='Las Vegas, NV'
-                                text='View Properties'
-                            />
-                            <SectionWithTextItem
-                                varblock='l'
-                                varIcon='none'
-                                varTitle='l'
-                                title='Miami, FL'
-                                text='View Properties'
-                            />
+                        <div className='SectionWithTextItems'>
+                            <h3 className='SectionTitle'>Locations</h3>
+                            <div className='SectionWithTextItemsDesc'>
+                                <p>Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer lacus urna,
+                                    aliquet
+                                    non
+                                    nisl
+                                    sit amet.</p>
+                            </div>
+                            <div className='SectionWithTextItem-block_l'>
+                                <SectionWithTextItem
+                                    varblock='l'
+                                    varIcon='none'
+                                    varTitle='l'
+                                    title='San Francisco, CA'
+                                    text='View Properties'
+                                />
+                                <SectionWithTextItem
+                                    varblock='l'
+                                    varIcon='none'
+                                    varTitle='l'
+                                    title='Los Angeles, CA'
+                                    text='View Properties'
+                                />
+                                <SectionWithTextItem
+                                    varblock='l'
+                                    varIcon='none'
+                                    varTitle='l'
+                                    title='San Diego, CA'
+                                    text='View Properties'
+                                />
+                                <SectionWithTextItem
+                                    varblock='l'
+                                    varIcon='none'
+                                    varTitle='l'
+                                    title='New York, NY'
+                                    text='View Properties'
+                                />
+                                <SectionWithTextItem
+                                    varblock='l'
+                                    varIcon='none'
+                                    varTitle='l'
+                                    title='Las Vegas, NV'
+                                    text='View Properties'
+                                />
+                                <SectionWithTextItem
+                                    varblock='l'
+                                    varIcon='none'
+                                    varTitle='l'
+                                    title='Miami, FL'
+                                    text='View Properties'
+                                />
+                            </div>
+                            <SectionWithPhotoContentLinks/>
                         </div>
+                        <SectionDark
+                            img={family}
+                            title={<h3 className='SectionTitle light'>Locations</h3>}
+                            desc={<div className='SectionWithTextItemsDesc light'>
+                                <p>Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non, placerat vel
+                                    arcu. In non consectetur lorem. Morbi non varius sapien suscipit mauri.</p>
+                            </div>}
+                            btn={<Button
+                                text='Get started'
+                            />}
+                        />
                     </div>
+                </div>
+                <div className="wrapper_light">
+
                 </div>
             </div>
         </div>
