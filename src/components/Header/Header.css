@@ -1,0 +1,21 @@
+.Header-top {
+  padding: 12px 0;
+  background-color: #939878;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.HeaderNav-start {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.HeaderNav-startLogo {
+  width: 32px;
+  height: 32px;
+  border-radius: 12px;
+  background: #CF6F49;
+}

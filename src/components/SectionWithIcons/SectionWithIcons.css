@@ -1,0 +1,24 @@
+.SectionWithIcons{
+    margin: -61px 0 128px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.SectionWithIconsText{
+    width: 243px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2A2C1F;
+}
+
+.SectionWithIconsElements{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.SectionWithIconsElement{
+    width: 120px;
+}
