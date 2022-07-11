@@ -1,0 +1,52 @@
+.BlockLatestPostsItem {
+    max-width: 405px;
+    max-height: 530px;
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #65665C;
+}
+.BlockLatestPostsItems{
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+}
+
+.BlockLatestPostsItem_img{
+    height: 266px;
+}
+.BlockLatestPostsItem_content {
+    padding: 24px 65px 24px 24px;
+}
+.BlockLatestPostsItem_header {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 16px;
+}
+.BlockLatestPostsItem_preTitle {
+}
+.BlockLatestPostsItem_title {
+    margin-bottom: 9px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2A2C1F;
+}
+.BlockLatestPostsItem_desc{
+    margin-bottom: 24px;
+    padding-right: 20px;
+    max-width: 319px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.BlockLatestPostsItem_link{
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A2C1F;
+}

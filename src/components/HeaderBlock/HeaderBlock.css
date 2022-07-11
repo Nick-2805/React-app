@@ -1,0 +1,24 @@
+
+.HeaderBlock {
+    padding-right: 12%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #2A2C1F;
+}
+
+.preTitleDiv {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.sectionTitle {
+    margin: 0 0 21px;
+    font-size: 56px;
+    line-height: 67px;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 30px;
+    color: #65665C;
+}
