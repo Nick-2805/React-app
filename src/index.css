@@ -20,72 +20,12 @@ code {
 .light {
     color: #FFFFFF;
 }
-.container {
-    margin: 0 80px;
-}
 
-.wrapper_light{
-    background-color: #FFFFFF;
-}
 .wrapper_grey {
     background-color: #F5F5F2;
 }
 
-.SectionWithTextItems {
-    margin-bottom: 128px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.SectionTitle {
-    margin-top: 21px;
-    margin-bottom: 25px;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-    text-align: center;
-    color: #2A2C1F;
-}
 
-.SectionWithTextItemsDesc {
-    margin: 0 24% 61px;
-    max-width: 713px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    color: #65665C;
-}
 
-.SectionWithTextItem-block {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 34px;
-}
 
-.SectionWithTextItem-block_l {
-    margin-bottom: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
-}
-
-.SectionWithHouses{
-    padding-top: 132px;
-    padding-bottom: 160px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.CardElemBlocks{
-    margin: 80px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 32px;
-}

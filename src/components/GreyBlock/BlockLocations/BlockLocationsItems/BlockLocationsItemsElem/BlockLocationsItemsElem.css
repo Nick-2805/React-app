@@ -1,0 +1,27 @@
+.BlockLocationsItemsElem {
+    width: 100%;
+    max-width: 416px;
+    padding: 33px 208px 69px 33px;
+    font-family: 'Roboto';
+    color: #2A2C1F;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F2;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+}
+
+.BlockLocationsItemsElem-title {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+
+.BlockLocationsItemsElem-viewProp {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+}
