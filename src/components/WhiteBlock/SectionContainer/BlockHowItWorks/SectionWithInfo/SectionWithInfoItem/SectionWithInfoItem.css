@@ -12,6 +12,13 @@
     border-radius: 16px;
 }
 
+.SectionWithInfoItem-left {
+    align-items: flex-start;
+    border: none;
+    box-shadow: none;
+}
+
+
 .SectionWithInfoItem_iconBlock {
     display: flex;
     justify-content: center;
@@ -22,7 +29,7 @@
     background-color: #FAE8E1;
 }
 
-.SectionWithInfoItem_title{
+.SectionWithInfoItem_title {
     margin-bottom: 17px;
     font-weight: 700;
     font-size: 24px;
@@ -30,12 +37,17 @@
     text-align: center;
     color: #2A2C1F;
 }
-.SectionWithInfoItem_desc{
+
+.SectionWithInfoItem_desc {
     max-width: 338px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     color: #65665C;
+}
+
+.SectionWithInfoItem_desc-left {
+    text-align: left;
 }
 

@@ -12,6 +12,7 @@ export default function BlockReviews() {
         <div className='BlockReviews'>
             <div className='container'>
                 <HeaderBlock
+                    preTitleNone='none'
                     titleText='What customers say'
                 />
                 <div className='BlockReviews_cards'>

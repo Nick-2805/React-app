@@ -4,7 +4,16 @@
 }
 .SectionWhitPhoto-start{
     width: 50%;
-    padding: 160px 80px;
+    /*padding: 160px 80px;*/
+}
+.SectionWhitPhoto-start-center{
+    padding: 160px 154px 160px 80px;
+}
+.SectionWhitPhoto-start-left{
+    padding: 140px 80px 140px 0;
+}
+.SectionWhitPhoto-start-right{
+    padding: 140px 0 140px 80px;
 }
 
 .SectionWhitPhoto-end {

@@ -4,16 +4,24 @@ import BlockLatestPostsItem from "./BlockLatestPostsItem/BlockLatestPostsItem";
 import img1 from '../assets/img/latesPost1.jpg'
 import img2 from '../assets/img/latesPost2.jpg'
 import img3 from '../assets/img/latesPost3.jpg'
+import SectionWithPhotoContentLinks from "../SectionWithPhotoContentLink/SectionWithPhotoContentLink";
 
 export default function BlockLatestPosts() {
     return (
         <div className='BlockLatestPosts'>
             <div className='container'>
-                <HeaderBlock
-                    preTitle='Blog'
-                    titleText='Latest posts'
-                    description='Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Praesent efficitur nibh massa morbi sagittis ornare dui in ornare.'
-                />
+                <div className='BlockLatestPosts-top'>
+                    <HeaderBlock
+                        headerB='block'
+                        preTitle='Blog'
+                        titleText='Latest posts'
+                        description='Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Praesent efficitur nibh massa morbi sagittis ornare dui in ornare.'
+                    />
+                    <SectionWithPhotoContentLinks
+                        text='View all'
+                        dNone2='none'
+                    />
+                </div>
                 <div className='BlockLatestPostsItems'>
                     <BlockLatestPostsItem
                         img={img1}

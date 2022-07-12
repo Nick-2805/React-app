@@ -7,9 +7,11 @@ export default function BestHousesBlock() {
     return (
         <div className='BestHousesBlock'>
             <SectionWhitPhoto
+                startP='left'
                 start={(
                     <div>
                         <HeaderBlock
+                            headerB='block'
                             preTitle='Comfort first'
                             titleText='The best houses for family comfort'
                             description='Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin sollicitudin, lorem non posuere blandit.'

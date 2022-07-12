@@ -1,8 +1,10 @@
 import './SectionWithPhotoContentLink.css';
 
-export default function  SectionWithPhotoContentLinks() {
+export default function  SectionWithPhotoContentLinks(props) {
+    const {dNone1, dNone2, text='Explore properties'} = props
     return <div className='SectionWithPhotoContentLinks'>
-        <div className='SectionWithPhotoContentLinkFirst'>Explore properties</div>
-        <div className='SectionWithPhotoContentLinkSecond'>Contact agent &rsaquo;</div>
+        <div className='SectionWithPhotoContentLinkFirst' style={{display: `${dNone1==='none' ? 'none' : 'block'}`}}>{text}
+        </div>
+        <div className='SectionWithPhotoContentLinkSecond' style={{display: `${ dNone2==='none' ? 'none' : 'block'}`}}>Contact agent &rsaquo;</div>
     </div>
 }

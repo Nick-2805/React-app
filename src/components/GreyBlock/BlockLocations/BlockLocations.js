@@ -8,8 +8,10 @@ export default function BlockLocations() {
     return (
         <div className='BlockLocations'>
             <HeaderBlock
+                preTitleNone='none'
                 titleText='Locations'
                 description='Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer lacus urna, aliquet non nisl sit amet.'
+                descCenter='center'
             />
             <BlockLocationsItems/>
             <SectionWithPhotoContentLinks/>

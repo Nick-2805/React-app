@@ -1,7 +1,7 @@
 .BlockLocationsItemsElem {
     width: 100%;
     max-width: 416px;
-    padding: 33px 208px 69px 33px;
+    padding: 33px 208px 33px 33px;
     font-family: 'Roboto';
     color: #2A2C1F;
     background: #FFFFFF;
@@ -22,6 +22,5 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
-
+    /*text-align: center;*/
 }
